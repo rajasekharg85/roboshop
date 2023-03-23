@@ -54,7 +54,7 @@ services:
     depends_on:
       - rabbitmq
   ratings:
-    image: ratings
+    image: ratings:v1
     container_name: ratings
     depends_on:
       - mysql
